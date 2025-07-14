@@ -15,7 +15,7 @@ export default function ProjectCard({ project }) {
           target="_blank"
           rel="noopener noreferrer"
         >
-          🔗 Live Demo
+           Live Demo
         </a>
 
         <a
@@ -24,7 +24,7 @@ export default function ProjectCard({ project }) {
           target="_blank"
           rel="noopener noreferrer"
         >
-          💻 GitHub Code
+           GitHub Code
         </a>
       </div>
     </div>
