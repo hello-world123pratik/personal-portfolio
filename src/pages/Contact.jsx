@@ -13,7 +13,7 @@ export default function Contact() {
         </p>
 
         <div className="contact-grid">
-          {/* ✅ Formspree-connected Contact Form */}
+          {/* Formspree-connected Contact Form */}
           <form className="contact-form" action={formAction} method="POST">
             <div className="form-group">
               <input type="text" name="name" required placeholder=" " />
@@ -35,33 +35,33 @@ export default function Contact() {
             </button>
           </form>
 
-          {/* 📬 Direct Contact Info */}
+          {/* Direct Contact Info */}
           <div className="contact-info">
             <div className="contact-card">
-              <h4>📧 Email</h4>
+              <h4> Email</h4>
               <a href="mailto:pratikshirsath45@gmail.com">
                 pratikshirsath45@gmail.com
               </a>
             </div>
 
             <div className="contact-card">
-              <h4>📞 Phone</h4>
+              <h4> Phone</h4>
               <a href="tel:+918177850079">+91 8177850079</a>
             </div>
 
             <div className="contact-card">
-              <h4>💼 Resume</h4>
+              <h4> Resume</h4>
               <a href={resumeFile} target="_blank" rel="noopener noreferrer">
                 View Resume (PDF)
               </a>
               <br />
               <a href={resumeFile} download>
-                ⬇ Download Resume
+                 Download Resume
               </a>
             </div>
 
             <div className="contact-card">
-              <h4>🔗 LinkedIn</h4>
+              <h4> LinkedIn</h4>
               <a
                 href="https://linkedin.com/in/pratik-shirsath-6524aa284"
                 target="_blank"
@@ -72,7 +72,7 @@ export default function Contact() {
             </div>
 
             <div className="contact-card">
-              <h4>👨‍💻 GitHub</h4>
+              <h4> GitHub</h4>
               <a
                 href="https://github.com/hello-world123pratik"
                 target="_blank"
